@@ -13,18 +13,21 @@ const ContactUs = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
+    console.log(name,value)
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
-    console.log('Form submitted:', form);
+    
     setForm({ name: '', email: '', message: '' });
   };
 
   if (!contactInfo) {
     return <Loading/>;
   }
+
+  console.log(form)
 
   return (
     <div className="p-4 h-full w-[90%] mx-auto mt-10">
