@@ -14,11 +14,11 @@ const Faculty = () => {
   }
 
   return (
-    <div className="p-4 h-screen w-[90%] mx-auto mt-10">
+    <div className="p-4  w-[90%] mx-auto mt-10">
       <h2 className="text-3xl font-bold mb-4">Faculty</h2>
-      <ul className='flex flex-wrap gap-10'>
+      <ul className='flex flex-wrap gap-10 justify-center md:justify-start '>
         {faculty.map((member, index) => (
-          <li key={index} className=" w-[300px] bg-white rounded-lg overflow-hidden">
+          <li key={index} className=" w-[300px] bg-white rounded-lg overflow-hidden shadow-lg">
             <img src={member.img} alt="" />
             <div className='my-3 ml-3'>
             <h3 className="text-xl font-semibold">{member.name}</h3>

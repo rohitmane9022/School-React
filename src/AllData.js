@@ -37,7 +37,7 @@ export const CarouselDataPromise = () => {
           para: "Cultural Fest - Embracing Diversity and Creativity"
         }
       ]});
-    }, 3000);
+    }, 1000);
   });
 };
 

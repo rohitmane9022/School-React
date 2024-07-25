@@ -14,7 +14,7 @@ const About = () => {
   }
 
   return (
-    <div className="p-4 h-screen w-[90%] mx-auto mt-10">
+    <div className="p-4 w-[90%] mx-auto mt-10">
       <h2 className="text-3xl font-bold mb-4">About Us</h2>
       <p className='text-lg'>{aboutUs.history}</p>
       <p className="mt-2 text-lg">Vision: {aboutUs.vision}</p>
