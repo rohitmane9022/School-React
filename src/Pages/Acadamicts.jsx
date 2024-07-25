@@ -14,7 +14,7 @@ const Academics = () => {
   }
 
   return (
-    <div className="p-4 h-screen w-[90%] mx-auto mt-10">
+    <div className="p-4 w-[90%] mx-auto mt-10">
       <h2 className="text-3xl font-bold mb-4">Academics</h2>
       <h3 className="text-xl font-semibold">Curriculum:</h3>
       <ul className="list-disc ml-4 text-lg">
